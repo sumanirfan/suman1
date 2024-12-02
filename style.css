@@ -1,0 +1,423 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+  
+}
+
+.primary-nav{
+    display:flex;
+ 
+    background-color:rgb(227, 87, 36);
+    padding-right: 80px;
+    background-position: center top;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  
+
+}
+.primary-nav-item{
+    display: flex;
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style-type: none;
+    align-items: center;
+    justify-content: right;
+}
+.primary-nav-item li a{
+    padding: 14px 20px 14px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    top: 0;
+
+}
+
+.secondary-nav{
+    background-color:rgb(227, 87, 36);
+    padding-top: 45px;
+ 
+  
+}
+.secondary-nav img{
+   width: 150px;
+   margin-bottom: 15px;
+  
+}
+.secondary-nav ul{
+    list-style-type: none;
+    display: flex;
+}
+.search-bar{
+    height: 45px;
+    margin-top: 12px;
+    margin-left: 100px;
+    width: 600px;
+    padding-left: 10px;
+    border: none;
+
+}
+.search-btn{
+    background-color: rgb(247, 212, 182);
+    width: 55px;
+    height: 45px;
+    margin-top: 12px;
+    padding: 10px;
+    padding-left: 17px;
+}
+.search-btn img{
+    width: 20px;
+    height: 20px;
+}
+.cart-btn .shopping-cart{
+    width: 40px;
+    margin-top: 14px;
+    margin-left: 40px;
+
+}
+
+
+
+
+
+/* baner section */
+.section-area{
+   
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.mini-wraper{
+    display: flex;
+}
+.banner{
+    width: 80%;
+    height: 400px;
+}
+.side-content{
+    width: 20%;
+  
+    height: 400px;
+    background-color: beige;
+}
+.minilogo{
+    width: 34px;
+    height: 53px;
+    margin: 10px 0 10px 13px;
+}
+.side-content h2{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(118, 42, 7);
+    margin-top: 25px;
+    margin-left: 6px;
+    display: flex;
+}
+.mini-banner{
+   margin: 8px;
+ 
+}
+.yellow-img{
+    height: 223px;
+}
+.barcode{
+    height: 70px;
+    width: 70px;
+    margin: 7px;
+    margin-left: 12px;
+}
+.barcode-text{
+    font-family: sans-serif;
+    margin: 17px;
+    margin-top: 22px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+/* flash area start */
+.flash-area{
+    width: 100%;
+    
+   
+}
+.flash-heading{
+    font-family: sans-serif;
+    padding-top: 50px;
+    color: rgb(107, 85, 57);
+    margin-bottom: 10px;
+}
+.sale-now-area{
+   
+    height: 50px;
+    background-color: white;
+    display: flex;
+    border: 1px solid rgb(174, 152, 135);
+    justify-content: space-between;
+}
+.sale-now-area h3{
+    color:rgb(227, 87, 36);
+    padding: 15px;
+    
+}
+.sale-now-area h2{
+    color:rgb(227, 87, 36);
+    margin: 10PX;
+    padding: 8PX;
+    border: 1px solid rgb(174, 152, 135);
+    font-size: 15PX;
+    
+}
+
+/* card area */
+.card-area{
+    height: 340px;
+    background-color: rgb(237, 232, 232);
+    display: flex;
+    margin-top: 15px;
+}
+.card{
+    width: 17%;
+    height: 300px;
+    background-color: white;
+     margin: 8px;
+     border: 1px solid rgb(169, 165, 165);
+     margin-top: 15px;
+}
+.card h3{
+    margin: 7px;
+    color: rgb(109, 67, 42);
+}
+.card h2{
+    margin: 7px;
+    color:rgb(227, 87, 36);
+}
+.card p{
+    margin: 7px;
+  text-decoration: line-through;
+  color: gray;
+}
+
+.headphone{
+    width: 100%;
+}
+
+
+
+/* sign up forn area */
+
+.signup-area{
+width: 40%;
+height: 487px;
+background-color: white;
+margin: 50px auto;
+border: 1px solid gray;
+}
+.signup-logo{
+    width: 22%;
+  margin: 20px auto;
+  display:block;
+
+}
+
+.google-btn{
+    width: 70%;
+    height: 50px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 18px auto;
+   
+}
+.google-btn-apple{
+    width: 70%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 1px solid rgb(106, 105, 105);
+    margin: 18px auto;
+    color: white;
+   
+}
+.google-btn-facebook{
+    width: 70%;
+    height: 50px;
+    background-color: rgb(53, 81, 224);
+    border-radius: 20px;
+    border: 1px solid rgb(197, 194, 194);
+    margin: 18px auto;
+    color: white;
+   
+}
+.google-wraper{
+    display: flex;
+    margin-left: 30%;
+}
+.google-wraper a{
+   text-decoration: none;
+   list-style-type: none;
+  
+}
+.google-img{
+    width: 8%;
+    height: 18px;
+    margin-top: 12px;
+}
+.google-text{
+    color: black;
+}
+.Apple-text{
+    color: white;
+}
+.new-account{
+    background-color: rgb(227, 87, 36);
+   margin: 30px auto;
+    width: 30%;
+    padding: 15px;
+    text-align: center;
+   
+}
+.new-account a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+
+.form{
+    margin: 0 auto;
+    width: 65%;
+    
+}
+.form label{
+    display: block;
+}
+.input-wraper{
+    margin: 10px;
+}
+.input-wraper input{
+    height: 50px;
+    width: 340px;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+.new-id-area{
+    width: 60%;
+    height: 600px;
+    background-color: white;
+    margin: 0 auto;
+    border: 5px solid rgb(102, 63, 43);
+    border-radius: 30px;
+   
+}
+.new-id-area h2{
+    color:rgb(102, 63, 43);
+    font-size: 30px;
+    margin-top:30px;
+    padding-bottom: 30px;
+    text-align: center;
+    border-bottom:5px solid rgb(102, 63, 43);
+}
+.main{
+    background-color: rgb(228, 227, 226);
+    padding-top: 40px;
+    height: 700px;
+}
+.create-form{
+    width: 85%;
+    margin: 20px auto;
+}
+.radio-wrapper{
+    display: flex;
+}
+.gender{
+    border: 1px solid black;
+    padding: 17px;
+    background-color: white;
+    margin-left: 26px;
+    width: 28%;
+}
+
+.gif{
+    width: 70%;
+    margin-left:70px;
+}
+
+
+
+.mini-card-area{
+    height: 243px;
+    background-color: rgb(237, 232, 232);
+    display: flex;
+    margin-top: 15px;
+}
+
+.mini-card{
+    width: 130%;
+    height: 210px;
+    background-color: white;
+     margin: 8px;
+     border: 1px solid rgb(169, 165, 165);
+     margin-top: 15px;
+}
+.mini-card h2{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 14px;
+}
+.mini-pic{
+    width: 100%;
+    height: 160px;
+
+}
+
+
+
+.footer-area{
+    width: 100%;
+    height: 430px;
+    margin-top: 80px;
+    display: flex;
+  padding-left: 150px;
+   
+}
+.footer-area h4{
+   padding-top: 40px;
+   font-size: 24px;
+   color: rgb(99, 61, 23);
+}
+.flag-flex{
+    display: flex;
+   padding-top: 20px;
+    
+}
+.flag-img{
+    width: 34px;
+}
+.flag-content{
+    margin: 6px;
+    font-size: 19px;
+}
+.footer-seprate{
+    width: 21%;
+   
+    height: 400px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
